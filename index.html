@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saturn Jewelry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #0e0e0e;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+      padding: 20px;
+      text-align: center;
+      color: gold;
+      font-size: 2em;
+      letter-spacing: 2px;
+      border-bottom: 2px solid gold;
+    }
+
+    .jewels-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .jewel-card {
+      background: #1a1a1a;
+      border: 2px solid gold;
+      border-radius: 15px;
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .jewel-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px gold;
+    }
+
+    .jewel-img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .jewel-title {
+      font-size: 1.4em;
+      color: #f0c929;
+      margin-bottom: 10px;
+    }
+
+    .jewel-desc {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    footer {
+      background: #111;
+      color: #888;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>Saturn Jewelry</header>
+
+  <div class="jewels-container">
+    <div class="jewel-card">
+      <img class="jewel-img" src="zohal z.jpg" alt="Saturn Ring Earring">
+      <div class="jewel-title">Saturn Hoop Earrings</div>
+      <div class="jewel-desc">Inspired by the mysterious rings of Saturn, crafted with shining diamonds and royal silver.</div>
+    </div>
+
+    <div class="jewel-card">
+      <img class="jewel-img" src="satrun.jpg" alt="Saturn Necklace">
+      <div class="jewel-title">Golden Saturn Necklace</div>
+      <div class="jewel-desc">A stunning blend of pure gold, tiny diamonds, and a rotating Saturn design with galactic shine.</div>
+    </div>
+
+    <div class="jewel-card">
+      <img class="jewel-img" src="satrun 1.jpg" alt="Zohal Ring">
+      <div class="jewel-title">Magical Saturn Ring</div>
+      <div class="jewel-desc">A unique ring for glowing souls. Made with love, elegance, and planetary energy.</div>
+    </div>
+  </div>
+
+  <footer>© 2025 Zohal Jewelry | Designed with love by Phoenix</footer>
+</body>
+</html>
